@@ -1,0 +1,25 @@
+{
+  "name": "liverpool-automation-challenge",
+  "version": "1.0.0",
+  "description": "Liverpool E2E automation challenge with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "cross-env HEADED=1 playwright test",
+    "test:report": "playwright show-report",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
